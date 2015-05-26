@@ -1,0 +1,30 @@
+{
+  "name": "util-path",
+  "version": "0.0.1",
+  "description": "extend node path module with useful methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/util-path.git"
+  },
+  "keywords": [
+    "node",
+    "path"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/util-path/issues"
+  },
+  "homepage": "https://github.com/zoubin/util-path#readme",
+  "dependencies": {
+    "parents": "^1.0.1"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.0.0"
+  }
+}
