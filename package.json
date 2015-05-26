@@ -20,9 +20,7 @@
     "url": "https://github.com/zoubin/util-path/issues"
   },
   "homepage": "https://github.com/zoubin/util-path#readme",
-  "dependencies": {
-    "parents": "^1.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "faucet": "0.0.1",
     "tape": "^4.0.0"
