@@ -1,6 +1,6 @@
 {
   "name": "util-path",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "extend node path module with useful methods",
   "main": "index.js",
   "scripts": {
