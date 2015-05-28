@@ -1,5 +1,6 @@
 var path = require('path');
+var mix = require('util-mix');
+var requireDir = require('require-directory');
 
-module.exports = path;
-
-path.replaceExtname = path.replaceExtname || require('./lib/replaceExtname.js');
+var extensions = requireDir(module, './lib');
+mix(module.exports, extensions, path);
