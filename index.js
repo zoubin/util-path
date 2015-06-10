@@ -3,4 +3,4 @@ var mix = require('util-mix');
 var requireDir = require('require-directory');
 
 var extensions = requireDir(module, './lib');
-mix(module.exports, extensions, path);
+mix(module.exports, path, extensions);

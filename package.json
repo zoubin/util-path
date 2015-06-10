@@ -4,7 +4,7 @@
   "description": "extend node path module with useful methods",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js | faucet"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/zoubin/util-path#readme",
   "dependencies": {
+    "minimatch": "^2.0.8",
     "require-directory": "^2.1.0",
     "util-mix": "^1.1.0"
   },
   "devDependencies": {
-    "faucet": "0.0.1",
     "tape": "^4.0.0"
   }
 }
